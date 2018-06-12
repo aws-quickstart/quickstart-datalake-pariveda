@@ -1,0 +1,11 @@
+{
+    "name": "aws-helpers",
+    "version": "0.0.1",
+    "private": true,
+    "main": "index.js",
+    "description": "A library of aws helper functions",
+    "license": "MIT",
+    "dependencies": {
+        "async": "~2.6.0"
+    }
+}

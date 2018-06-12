@@ -1,0 +1,10 @@
+{
+    "name": "deliver-api-lambda",
+    "version": "0.0.1",
+    "description": "A simple lambda that takes a date range, finds matching files in S3, and outputs the contents of those files",
+    "license": "MIT",
+    "dependencies": {
+        "async": "~2.6.0",
+        "aws-helpers": "file:../aws-helpers"
+    }
+}

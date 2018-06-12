@@ -1,0 +1,10 @@
+{
+    "name": "passthrough-lambda",
+    "version": "0.0.1",
+    "description": "A simple lambda that takes content, puts it into S3, and outputs it to Kinesis",
+    "license": "MIT",
+    "dependencies": {
+        "async": "~2.6.0",
+        "aws-helpers": "file:../aws-helpers"
+    }
+}
