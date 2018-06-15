@@ -1,0 +1,18 @@
+[
+    {
+        "ParameterKey": "LambdaCodeS3Bucket",
+        "ParameterValue": "datalake-sagemaker-lambda-code"
+    },
+    {
+        "ParameterKey": "PassthroughLambdaCodeLocation",
+        "ParameterValue": "passthrough-lambda/passthrough-lambda.zip"
+    },
+    {
+        "ParameterKey": "DeliverApiLambdaCodeLocation",
+        "ParameterValue": "deliver-api-lambda/deliver-api-lambda.zip"
+    },
+    {
+        "ParameterKey": "S3BucketName",
+        "ParameterValue": "datalake-sagemaker-data"
+    }
+]
