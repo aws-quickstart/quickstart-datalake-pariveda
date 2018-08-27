@@ -217,10 +217,6 @@
         "TrainingInstanceType": {
             "Type": "String",
             "AllowedValues": [
-                "ml.t2.medium",
-                "ml.t2.large",
-                "ml.t2.xlarge",
-                "ml.t2.2xlarge",
                 "ml.m5.large",
                 "ml.m5.xlarge",
                 "ml.m5.2xlarge",
@@ -250,7 +246,7 @@
                 "ml.p2.16xlarge"
             ],
             "Description": "The instance type to train the SageMaker model with.  Check the documentation for your chosen algorithm for instance type recommendations.",
-            "Default": "ml.t2.medium"
+            "Default": "ml.m5.large"
         },
         "NotebookInstanceType": {
             "Type": "String",
