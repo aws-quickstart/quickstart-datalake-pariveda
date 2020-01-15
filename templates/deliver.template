@@ -200,7 +200,7 @@
                         "Fn::Sub": "${LambdaCodeS3KeyPrefix}${DeliverApiLambdaCodeLocation}"
                     }
                 },
-                "Runtime": "nodejs8.10",
+                "Runtime": "nodejs10.x",
                 "Timeout": 30,
                 "Environment": {
                     "Variables": {
@@ -228,7 +228,7 @@
                         "Fn::Sub": "${LambdaCodeS3KeyPrefix}${PredictApiLambdaCodeLocation}"
                     }
                 },
-                "Runtime": "nodejs8.10",
+                "Runtime": "nodejs10.x",
                 "Timeout": 30,
                 "Environment": {
                     "Variables": {

@@ -482,7 +482,7 @@
                         "Fn::Sub": "${LambdaCodeS3KeyPrefix}${IngestLambdaCodeLocation}"
                     }
                 },
-                "Runtime": "nodejs8.10",
+                "Runtime": "nodejs10.x",
                 "Timeout": 90,
                 "MemorySize": "1024",
                 "Environment": {
@@ -510,7 +510,7 @@
                         "Fn::Sub": "${LambdaCodeS3KeyPrefix}${ModelLambdaCodeLocation}"
                     }
                 },
-                "Runtime": "nodejs8.10",
+                "Runtime": "nodejs10.x",
                 "Timeout": 90,
                 "MemorySize": "2048",
                 "Environment": {
@@ -541,7 +541,7 @@
                         "Fn::Sub": "${LambdaCodeS3KeyPrefix}${EnhanceLambdaCodeLocation}"
                     }
                 },
-                "Runtime": "nodejs8.10",
+                "Runtime": "nodejs10.x",
                 "Timeout": 30,
                 "MemorySize": "1024",
                 "Environment": {
@@ -572,7 +572,7 @@
                         "Fn::Sub": "${LambdaCodeS3KeyPrefix}${TransformLambdaCodeLocation}"
                     }
                 },
-                "Runtime": "nodejs8.10",
+                "Runtime": "nodejs10.x",
                 "Timeout": 30,
                 "MemorySize": "1024",
                 "Environment": {
